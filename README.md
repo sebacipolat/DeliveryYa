@@ -22,9 +22,8 @@ DeliveryYa is a single Android Instant App Example
 </p>  
 
 ## Test as Instant App
-<p>Click this link 
  <a href='https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'/>
-</p>
+
 
 <p>Example Video </p>
 <a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>Click to open</a>
