@@ -14,8 +14,6 @@ Android Instant App
 DeliveryYais a single Android Instant App Example
 
 
-![Imagen ejemplo](https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/Screenshot_1508968719.png)
-
 Download 
 <p>
 <a href='https://play.google.com/store/apps/details?id=com.cipolat.deliveryya'>
@@ -23,44 +21,15 @@ Download
 </a>
 </p>  
 
-## Technology used:
-
-The app is based on MVP
-
-Libraries:
-
-RxJava
-
-RxAndroid
-
-okhttp3
-
-Butterknife
-
-picasso
-
-appcompat-v7
 
 
 ## BEFORE RUN
 
-The Guardian Api Service is used as data source.
+This app use as data sources Firebase Realtime Database
 
-[The Guardian open platform](http://open-platform.theguardian.com/)
+Import json file from bd_firebase/pedidosonline-357d1-export.json into your firebase database
 
-**You should create an api key**
-
-1- Go to https://bonobo.capi.gutools.co.uk/register/developer an create a developer account.
-
-2- Modify 'Constants.java' at /app/src/main/java/com/cipolat/news/Data
-
-   reeplace the API_KEY value with your dev key.
-
-
-
-**FEATURES**
-
-The app has only two screens, it's only a demostration with limited features.
+Reeplace the google-services.json with your own files
 
 **Home**
 
