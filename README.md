@@ -52,8 +52,10 @@ Butterknife, databinding was not used due issues related to feature modules and 
 
 ## Architecture
 
-Normally an app will be like that
+Normally an app will be like that, all is togetherinto an unique module.
 <img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/app.png' height="350"/>
+
+Instant apps is based in split the app in multiple modules by function o feature.
 
 
   
