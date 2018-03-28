@@ -42,10 +42,9 @@ Reeplace the google-services.json with your own files
 <img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/home.png' height="350"/>
 
 
-**Order Detail**
+## Order Detail
 
 <img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/pizza.png' height="350"/>
-
 
 
   
