@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DeliveryYa</string>
+    <!--Ordenes-->
+    <string name="order_time">z\'</string>
+    <string name="order_count_one_lbl">Pedido</string>
+    <string name="order_count_many_lbl">Pedidos</string>
+    <string name="order_money_value">$@</string>
+    <!--Pedidos-->
+    <string name="pedido_cant">Cantidad: @</string>
+    <string name="pedido_lbl">Pedidos:</string>
+    <string name="pedido_status_lbl">Estado del Pedido:</string>
+    <string name="pedido_order_number">#@</string>
+    <string name="pedido_loader_sub_lbl">Estamos cargando tu pedido..</string>
+    <!-- Labels-->
+    <string name="internet_connection_error_lbl">Woops!</string>
+    <string name="internet_connection_error_sub_lbl">Verifica tu conexion a internet!</string>
+    <string name="response_error_lbl">Algo salio mal!</string>
+    <string name="response_error_sub_lbl">Please try again!</string>
+    <string name="empty_state_lbl">Tu plato esta vacio.</string>
+    <string name="empty_state_sub_lbl">Haz tu primer pedido!.</string>
+    <string name="order_state_lbl">Pedido no encontrado!</string>
+    <string name="order_state_sub_lbl">Ponte en contacto con nosotros!</string>
+    <string name="app_info_title">Importante</string>
+    <string name="app_info_label">DeliveryYa es solo una app de ejemplo para demostrar las posibilidad de Android Instant Apps.\nCreado por Sebastian Cipolat</string>
+    <string name="app_info_label_ok">Ok</string>
+    <!-- Instcom.cipolat.deliveryya.base.App App-->
+    <string name="install_lbl">Delivery de tu comida favorita\nrapido y facil!</string>
+    <string name="install_lbl_btn">INSTALAR</string>
+</resources>
+

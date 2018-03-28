@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_grey"
+    android:fitsSystemWindows="true">
+    <!--Toolbar-->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll">
+
+            <!--Header-->
+            <ImageView
+                android:id="@+id/backgr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/foodpattern" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <!--Header-->
+            <include
+                android:id="@+id/orderHeader"
+                layout="@layout/pedido_header" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <!--Fin Toolbar-->
+
+    <!--BODY-->
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--Loader-->
+            <com.cipolat.deliveryya.base.UI.CustomView.Loader.AraryImageLoader
+                android:id="@+id/loaderAnim"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                app:setSource="@drawable/food_array" />
+            <!--Install-->
+            <ViewStub
+                android:id="@+id/installStub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inflatedId="@+id/installLay"
+                android:layout="@layout/install_full" />
+            <!--Header-->
+            <include
+                android:id="@+id/orderIndicator"
+                layout="@layout/pedido_indicator" />
+            <TextView
+                android:id="@+id/pedidoLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Pedidos:"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/grey_strong"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/orderList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:nestedScrollingEnabled="false"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/pedidoStatusLbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Estado del Pedido:"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/grey_strong"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/statusLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:nestedScrollingEnabled="false"
+                android:visibility="gone" />
+
+            <com.cipolat.deliveryya.base.UI.CustomView.CustomSuperStateView
+                android:id="@+id/errorView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:visibility="gone" />
+            <!--Footer-->
+            <include
+                android:id="@+id/footer"
+                layout="@layout/footer"
+                android:visibility="gone" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

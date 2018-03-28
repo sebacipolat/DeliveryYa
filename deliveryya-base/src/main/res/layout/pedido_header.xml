@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pedidoHeaderLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_shadow_bottom">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="5dp"
+        app:layout_heightPercent="40%"
+        app:layout_marginRightPercent="70%"
+        app:layout_marginTopPercent="30%" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textAllCaps="true"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_marginLeftPercent="30%"
+        app:layout_marginTopPercent="35%" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/rate_me"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:theme="@style/RatingBar"
+        app:layout_marginLeftPercent="30%"
+        app:layout_marginTopPercent="65%"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/statusLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="5dp"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@color/white"
+        app:layout_marginLeftPercent="55%"
+        app:layout_marginTopPercent="64%"
+        android:visibility="gone"/>
+
+</android.support.percent.PercentFrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DeliveryYa.iml" filepath="$PROJECT_DIR$/DeliveryYa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deliveryya-app/app.iml" filepath="$PROJECT_DIR$/deliveryya-app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deliveryya-app/deliveryya-app.iml" filepath="$PROJECT_DIR$/deliveryya-app/deliveryya-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deliveryya-base/deliveryya-base.iml" filepath="$PROJECT_DIR$/deliveryya-base/deliveryya-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deliveryya-home/deliveryya-home.iml" filepath="$PROJECT_DIR$/deliveryya-home/deliveryya-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deliveryya-instant/deliveryya-instant.iml" filepath="$PROJECT_DIR$/deliveryya-instant/deliveryya-instant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deliveryya-order/deliveryya-order.iml" filepath="$PROJECT_DIR$/deliveryya-order/deliveryya-order.iml" />
+    </modules>
+  </component>
+</project>
