@@ -52,12 +52,21 @@ Butterknife, databinding was not used due issues related to feature modules and 
 
 ## Architecture
 
-Normally an app will be like that, all is togetherinto an unique module.
+<p>Normally an app will be like that, all  together into an unique application module.</p>
 <img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/app.png' height="350"/>
 
-Instant apps is based in split the app in multiple modules by function o feature.
+Instant apps is based on split the app in multiple modules by function o feature.
 
+<img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/modules.png' height="450"/>
 
+The app is componed by this modules:
+
+deliveryya-based: Base Feature Module, has all the common code use by the other modules.
+deliveryya-home:  Home Screen Feature Module
+deliveryya-order: Order Detail Screen Feature Module
+
+deliveryya-app:   Installed Application Module
+deliveryya-instant:Instant app Module
   
 **FeedBack**
 
