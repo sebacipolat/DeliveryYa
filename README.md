@@ -45,6 +45,16 @@ Reeplace the google-services.json with your own files
 
 <img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/pizza.png' height="350"/>
 
+## Technologies
+This is a simple example I only use firebase, appcompat,glide.
+
+Butterknife, databinding was not used due issues related to feature modules and google play
+
+## Architecture
+
+Normally an app will be like that
+<img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/app.png' height="350"/>
+
 
   
 **FeedBack**
