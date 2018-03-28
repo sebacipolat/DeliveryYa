@@ -28,6 +28,11 @@ DeliveryYais a single Android Instant App Example
 
 [![Example Video Click to open](https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/Screenshot_1508968719.png)](https://www.youtube.com/watch?v=0zLxNS-ePYYs "Example Video")
 
+<p>Example Video Click to open
+<a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>
+<img alt='Example Video Click to open' src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/Screenshot_1508968719.png' height="400"/>
+</a>
+</p>  
 
 ## BEFORE RUN
 
