@@ -24,22 +24,12 @@ DeliveryYais a single Android Instant App Example
 ## Test as Instant App
 <p>Click this link 
  <a href='https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'>
-<img alt='Get it on Google Play' src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/Screenshot_1508968719.png' height="350"/>
 TRACK ICE CREAM
 </p>
 
-
-<p>EXAMPLE VIDEO
- <a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>
-TRACK ICE CREAM
-</p>
-
-
-<p>Example Video Click to open
-<a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>
-<img alt='Example Video Click to open' src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/Screenshot_1508968719.png' height="400"/>
-</a>
-</p>  
+<p>Example Video Click to open</p>
+<a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>TRACK ICE CREAM</a>
+ 
 
 ## BEFORE RUN
 
