@@ -27,8 +27,8 @@ DeliveryYais a single Android Instant App Example
 TRACK ICE CREAM
 </p>
 
-<p>Example Video Click to open</p>
-<a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>TRACK ICE CREAM</a>
+<p>Example Video </p>
+<a href='https://www.youtube.com/watch?v=0zLxNS-ePYYs'>Click to open</a>
  
 
 ## BEFORE RUN
@@ -40,12 +40,12 @@ Import json file from bd_firebase/pedidosonline-357d1-export.json into your fire
 Reeplace the google-services.json with your own files
 
 **Home**
-<img src='https://github.com/sebacipolat/Squire/blob/master/Images/home.png' height="200"/>
+<img src='https://github.com/sebacipolat/Squire/blob/master/Images/home.png' height="350"/>
 
 
 **Order Detail**
 
-<img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/pizza.png' height="200"/>
+<img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/pizza.png' height="350"/>
 
 
 
