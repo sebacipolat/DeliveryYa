@@ -22,9 +22,11 @@ DeliveryYais a single Android Instant App Example
 </p>  
 
 ##Test as Instant App
-Click this link <a href'=https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'> TRACK ICE CREAM</a>
+<p>Click this link 
+  <a href'=https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'>TRACK ICE CREAM</a>
+</p>
 
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
+[![Example Video Click to open](https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/Screenshot_1508968719.png)](https://www.youtube.com/watch?v=0zLxNS-ePYYs "Example Video")
 
 
 ## BEFORE RUN
@@ -36,15 +38,12 @@ Import json file from bd_firebase/pedidosonline-357d1-export.json into your fire
 Reeplace the google-services.json with your own files
 
 **Home**
-
-![Home](https://github.com/sebacipolat/Squire/blob/master/Images/home.png)
-
-The search icon is only for demostration purpose.
+<img src='https://github.com/sebacipolat/Squire/blob/master/Images/home.png' height="200"/>
 
 
-**Article Viewer**
+**Order Detail**
 
-![Article](https://github.com/sebacipolat/Squire/blob/master/Images/article.png)
+<img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/pizza.png' height="200"/>
 
 
 
