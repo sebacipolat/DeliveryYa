@@ -14,13 +14,17 @@ Android Instant App
 DeliveryYais a single Android Instant App Example
 
 
-Download 
+## Download 
 <p>
 <a href='https://play.google.com/store/apps/details?id=com.cipolat.deliveryya'>
-    <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="100"/>
+<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="100"/>
 </a>
 </p>  
 
+##Test as Instant App
+Click this link <a href'=https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'> TRACK ICE CREAM</a>
+
+[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
 
 
 ## BEFORE RUN
