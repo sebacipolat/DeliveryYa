@@ -40,7 +40,7 @@ Import json file from bd_firebase/pedidosonline-357d1-export.json into your fire
 Reeplace the google-services.json with your own files
 
 **Home**
-<img src='https://github.com/sebacipolat/Squire/blob/master/Images/home.png' height="350"/>
+<img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/home.png' height="350"/>
 
 
 **Order Detail**
