@@ -11,7 +11,7 @@ Android Instant App
 [sebastiancipolat Linkedin](www.linkedin.com/in/sebastiancipolat)
 
 
-DeliveryYais a single Android Instant App Example
+DeliveryYa is a single Android Instant App Example
 
 
 ## Download 
@@ -23,8 +23,7 @@ DeliveryYais a single Android Instant App Example
 
 ## Test as Instant App
 <p>Click this link 
- <a href='https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'>
-TRACK ICE CREAM
+ <a href='https://pedidosonline-357d1.firebaseapp.com/deliveryya/order?id=112233445566'/>
 </p>
 
 <p>Example Video </p>
@@ -39,7 +38,7 @@ Import json file from bd_firebase/pedidosonline-357d1-export.json into your fire
 
 Reeplace the google-services.json with your own files
 
-**Home**
+## Home
 <img src='https://github.com/sebacipolat/DeliveryYa/blob/master/ImagesGithub/home.png' height="350"/>
 
 
