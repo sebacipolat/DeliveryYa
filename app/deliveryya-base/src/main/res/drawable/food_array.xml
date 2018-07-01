@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/ic_burger"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_papas"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_sandwich"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_carne"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_pollo"
+        android:duration="400" />
+    <item
+        android:drawable="@drawable/ic_ensalada_2"
+        android:duration="400" />
+</animation-list>

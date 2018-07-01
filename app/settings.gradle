@@ -1,0 +1,1 @@
+include ':deliveryya-app', ':deliveryya-base', ':deliveryya-home', ':deliveryya-order', ':deliveryya-instant'
